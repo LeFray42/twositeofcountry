@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #6a60fc;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.content{
+    width: 1000px;
+    margin: 50px auto;
+}
+
+.logo{
+    font-size: 42px;
+    font-weight: bold;
+    letter-spacing: 2pt;
+    word-spacing: 1.8pt;
+    color: rgb(73, 3, 3);
+}
+
+.preview{
+    width: 250px;
+    height: 200px;
+    overflow: hidden;
+    padding: 10px;
+    box-shadow: 0 0 10px black;
+    border-radius: 5px;
+    background: aquamarine;
+    float: left;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.preview a{
+    text-decoration: none;
+    color: green;
+
+}
+
+.prewiew:hover{
+    box-shadow: 0 0 15px black;
+}
